@@ -9,6 +9,7 @@
     <title>Photo Gallery</title>
 </head>
 <body>
+    <section>
     <nav class="navbar_c">
       <div class="mast">
         <div class="logo">
@@ -37,12 +38,21 @@
         </div>
       </div>
     </nav>
-
+    </section>
+    <section>
     <div class="container">
-        <div id="my-container" style="display: flex; flex-wrap: wrap;">
+        <div id="my-container">
         </div>
-    </div>    
-
+    </div>
+    </section>
+    <footer class="footer">
+      <p class="name">Made By Nishant</p>
+      <form>
+        <input type="file" accept="image/png, image/jpeg" placeholder="Add Image To Gallery" />
+        <input class="file"type="submit" placeholder="Add image">
+  </form>   
+</footer>
+  
     <script src="scripts.js"></script>
   </body>
 </html>

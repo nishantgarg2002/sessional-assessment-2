@@ -1,6 +1,7 @@
 .navbar_c{
     background: #5ccce2;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
 }
 
 div.mast{
@@ -13,10 +14,11 @@ svg{
     width: 25px; height: 25px;
 }
 
-/* .my-container{
+#my-container{
     display: flex;
     flex-wrap: wrap;
-} */
+    padding-top: 120px;
+}
 
 .stb{
   margin: 5px;
@@ -72,4 +74,18 @@ svg{
   
 .logo:active{
     transform: scale(0.95);
+}
+
+.footer{
+    height:150px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.name{
+    margin-top: 10px;
+    color:White;
 }
